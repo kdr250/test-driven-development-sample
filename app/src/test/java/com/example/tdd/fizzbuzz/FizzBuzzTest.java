@@ -9,6 +9,7 @@ class FizzBuzzTest {
   @Test
   void _1を渡すと文字列1を返す() throws Exception {
     // 準備
+    FizzBuzz fizzBuzz = new FizzBuzz();
     // 実行
     String actual = fizzBuzz.convert(1);
     // 検証
