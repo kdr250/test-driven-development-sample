@@ -10,7 +10,7 @@ class FizzBuzzTest {
   void _1を渡すと文字列1を返す() throws Exception {
     // 準備
     // 実行
-    String actual;
+    String actual = fizzBuzz.convert(1);
     // 検証
     assertEquals("1", actual);
   }
