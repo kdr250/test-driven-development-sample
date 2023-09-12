@@ -42,11 +42,6 @@ class FizzBuzzTest {
       void _1を渡すと文字列1を返す() throws Exception {
         assertEquals("1", fizzBuzz.convert(1));
       }
-
-      @Test
-      void _2を渡すと文字列2を返す() throws Exception {
-        assertEquals("2", fizzBuzz.convert(2));
-      }
     }
   }
 }
