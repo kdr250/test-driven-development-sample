@@ -28,4 +28,9 @@ class FizzBuzzTest {
   void _3を渡すと文字列Fizzを返す() throws Exception {
     assertEquals("Fizz", fizzBuzz.convert(3));
   }
+
+  @Test
+  void _5を渡すと文字列Buzzを返す() throws Exception {
+    assertEquals("Buzz", fizzBuzz.convert(5));
+  }
 }
