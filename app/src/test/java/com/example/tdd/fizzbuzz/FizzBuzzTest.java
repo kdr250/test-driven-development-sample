@@ -21,4 +21,12 @@ class FizzBuzzTest {
     // 実行 & 検証
     assertEquals("2", fizzBuzz.convert(2));
   }
+
+  @Test
+  void _3を渡すと文字列Fizzを返す() throws Exception {
+    // 準備
+    FizzBuzz fizzBuzz = new FizzBuzz();
+    // 実行 & 検証
+    assertEquals("Fizz", fizzBuzz.convert(3));
+  }
 }
