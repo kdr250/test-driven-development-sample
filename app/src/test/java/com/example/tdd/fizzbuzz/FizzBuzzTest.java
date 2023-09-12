@@ -7,10 +7,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class FizzBuzzTest {
 
   @Test
-  void 数を文字列に変換する() throws Exception {
+  void _1を渡すと文字列1を返す() throws Exception {
     // 準備
     // 実行
+    String actual;
     // 検証
-    assertEquals(expected, actual)
+    assertEquals("1", actual);
   }
 }
